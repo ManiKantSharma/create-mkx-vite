@@ -31,11 +31,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/manikantsharma/create-mkx-app.git"
+    "url": "https://github.com/manikantsharma/create-mkx-vite.git"
   },
-  "homepage": "https://github.com/manikantsharma/create-mkx-app#readme",
+  "homepage": "https://github.com/manikantsharma/create-mkx-vite#readme",
   "bugs": {
-    "url": "https://github.com/manikantsharma/create-mkx-app/issues"
+    "url": "https://github.com/manikantsharma/create-mkx-vite/issues"
   },
   "engines": {
     "node": ">=18.0.0"
