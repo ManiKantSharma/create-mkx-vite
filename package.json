@@ -1,6 +1,6 @@
 {
   "name": "create-mkx-vite",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A modern Vite boilerplate with React, TypeScript, and Tailwind CSS 4",
   "type": "module",
   "scripts": {
