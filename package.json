@@ -1,0 +1,55 @@
+{
+  "name": "create-mkx-vite",
+  "version": "1.0.6",
+  "description": "A modern Vite boilerplate with React, TypeScript, and Tailwind CSS 4",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "create-project": "node scripts/create-project.js"
+  },
+  "bin": {
+    "create-mkx-vite-app": "./scripts/create-project.js"
+  },
+  "files": [
+    "template/**/*",
+    "scripts/**/*",
+    "README.md"
+  ],
+  "keywords": [
+    "vite",
+    "react",
+    "typescript",
+    "tailwind",
+    "tailwindcss",
+    "boilerplate",
+    "template"
+  ],
+  "author": "Mani Kant Sharma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manikantsharma/create-mkx-app.git"
+  },
+  "homepage": "https://github.com/manikantsharma/create-mkx-app#readme",
+  "bugs": {
+    "url": "https://github.com/manikantsharma/create-mkx-app/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/prompts": "^2.4.9"
+  }
+}
