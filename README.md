@@ -58,7 +58,7 @@ This template comes with everything you need for modern React development:
 ## 📁 Project Structure
 
 ```
-my-react-app/
+my-awesome-app/
 ├── public/
 │   └── vite.svg
 ├── src/
@@ -88,10 +88,11 @@ my-react-app/
 │   ├── Resources/               # Static assets
 │   └── NotFound/                # 404 component
 ├── index.html
+├── .eslintrc.cjs
 ├── package.json
-├── vite.config.ts
 ├── tsconfig.json
-└── tailwind.config.js
+├── tsconfig.node.json
+└── vite.config.ts
 ```
 
 ## 🔨 Development
@@ -173,7 +174,7 @@ If you encounter any issues or have questions:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the <a href="https://github.com/ManiKantSharma/create-mkx-vite/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">LICENSE</a> file for details.
 
 ## 👨‍💻 Author
 
